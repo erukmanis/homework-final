@@ -1,8 +1,3 @@
-<?php
-
-require_once '../public/templates/header.php';
-?>
-
 <div class="register">
 
     <form action="processregister.php" method="post">
@@ -14,7 +9,3 @@ require_once '../public/templates/header.php';
     </form>
 
 </div>
-
-<?php
-
-require_once '../public/templates/footer.php';
