@@ -1,4 +1,8 @@
-<div class="register">
+<?php
+
+require_once '../public/templates/header.php';
+?>
+<div class="front">
 
     <form action="processregister.php" method="post">
         <input type="text" placeholder="user name" name="username" required>
@@ -9,3 +13,5 @@
     </form>
 
 </div>
+<?php
+require_once '../public/templates/footer.php';

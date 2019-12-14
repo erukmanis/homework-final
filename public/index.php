@@ -10,10 +10,6 @@ require_once '../source/login.php';
 echo '</div>';
 
 echo '<div class="front">';
-require_once 'templates/register.php';
-echo '</div>';
-
-echo '<div class="front">';
 require_once '../source/echotodolist.php';
 echo '</div>';
 

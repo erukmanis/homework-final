@@ -1,5 +1,5 @@
 <?php
-require_once '../deletetodo.php';
+require_once '../source/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $taskid = $_POST['delete'];
