@@ -9,7 +9,7 @@ if (!isset($_SESSION['username'])) {
     echo "Welcome to your private todolist " . $_SESSION['username'] . " !";
 }
 
-require_once '../source/addtasks.php';
+require_once '../public/templates/addtasks.php';
 
 
 $stmt = $conn->prepare("SELECT * FROM schedule

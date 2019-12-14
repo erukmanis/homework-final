@@ -30,6 +30,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 } else {
     echo "that was not a POST, maybe GET";
 }
-
-
-// die("For Now!");
