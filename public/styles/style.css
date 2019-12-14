@@ -1,0 +1,19 @@
+body {
+    background-color: floralwhite;
+}
+
+header {
+    height: 30px;
+    background-color: brown;
+}
+
+footer {
+    height: 30px;
+    background-color: brown;
+}
+
+.innercontainer {
+    margin: auto;
+    width: 500px;
+    
+}
