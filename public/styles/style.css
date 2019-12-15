@@ -35,8 +35,8 @@ footer {
 .innercontainer {
     margin: auto;
     width: 900px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .front {
@@ -79,3 +79,19 @@ margin-bottom: 90px;
     text-align: center;
 
 }
+
+input {
+    background-color: rgb(0, 177, 210);
+    border: black solid 1px;
+    color: black;
+    margin: 5px;
+    
+}
+
+button {
+    background-color: rgb(0, 177, 210);
+    border: black solid 1px;
+}
+::-webkit-input-placeholder {
+    color: black;
+  }
