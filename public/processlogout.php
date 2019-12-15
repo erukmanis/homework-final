@@ -5,4 +5,4 @@ $_SESSION['username'] = null;
 
 $_SESSION['idusers'] = null;
 
-require_once './templates/goodby.php';
+require_once './templates/goodbye.php';

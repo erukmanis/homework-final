@@ -17,4 +17,3 @@ if (isset($_SESSION['username'])) {
     echo "</form>";
     echo "</div>";
 }
-echo "<hr>";
