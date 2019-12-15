@@ -45,9 +45,9 @@ foreach ($allRows as $row) {
             case 'details':
                 echo "<div class=taskdetails>Details '$value'</div>";
                 break;
-            default:
-                //echo "<span>$value </span>";
-                break;
+                // default:
+                //     //echo "<span>$value </span>";
+                //     break;
         }
     }
 
