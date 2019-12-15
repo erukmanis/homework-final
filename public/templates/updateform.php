@@ -27,7 +27,6 @@ if (!isset($_SESSION['username'])) {
     echo "<div class='front generalmessages'>Here you can edit your tasks " . $_SESSION['username'] . " !</div>";
 }
 
-
 $stmt = $conn->prepare("SELECT * FROM schedule
 WHERE (user = :user)");
 $stmt->bindParam(':user', $_SESSION['idusers']);
@@ -46,7 +45,7 @@ foreach ($allRows as $row) {
         }
         $columnsPrinted = true;
     }
-
+    echo "<div class='form'>";
     echo "<form action='/updatetodo.php' method='post'>";
 
     foreach ($row as $key => $value) {
@@ -63,18 +62,20 @@ foreach ($allRows as $row) {
 
                 echo "<input class='taskdisplay' name='$key' value='$value'></input>";
                 break;
-            default:
-                //echo "<span>$value </span>";
-                break;
+                // default:
+                //     //echo "<span>$value </span>";
+                //     break;
         }
     }
 
     echo "<button name='updatebutton' value='" . $row['idschedule'] . "'>Update</button>";
     echo "</form>";
 
+
     echo "<form action='/deletetodo.php' method='post'>";
     echo "<button name='delete' value='" . $row['idschedule'] . "'>Delete</button>";
     echo "</form>";
+    echo '</div>';
 }
 
 

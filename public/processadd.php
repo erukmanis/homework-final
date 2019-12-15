@@ -28,5 +28,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     header('Location: /');
 } else {
-    echo "that was not a POST, maybe GET";
+    echo "Try again";
 }

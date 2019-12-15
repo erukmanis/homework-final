@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = $conn->prepare("DELETE FROM `schedule` WHERE `schedule`.`idschedule` = (:tasknum)");
     $stmt->bindParam(':tasknum', $taskid);
     $stmt->execute();
-    header('Location: /');
+    header('Location: templates/updateform.php');
 } else {
     echo "Try again";
 }

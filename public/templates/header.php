@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="hfletters">
-        <div>DoDonePagE</div>
+    <header class="header">
+        <div>To Do List</div>
     </header>
     <div class="innercontainer">

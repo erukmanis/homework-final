@@ -1,6 +1,5 @@
 </div>
-<footer class="hfletters">DoDonePagE</footer>
+<footer class="footer">(C) RCS STUDENT WORKS 2019</footer>
 </body>
-
 
 </html>

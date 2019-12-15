@@ -1,16 +1,33 @@
 body {
-    background-color: floralwhite;
+    background-color:rgb(0, 177, 210);
+    margin: 0;
+   
 }
 
 header {
     height: 30px;
-    background-color: rgb(140, 140, 255);
+    background-color:rgb(0, 177, 210);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: rgb(253, 219, 39);
+    border-bottom: solid 2px rgb(253, 219, 39);
 }
 
 footer {
-    height: 30px;
-    background-color:  rgb(140, 140, 255);
+    height: 50px;
+    background-color:rgb(0, 177, 210);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: solid 2px rgb(253, 219, 39);
+    padding-top: 20px;
 }
+
+
 
 .innercontainer {
     margin: auto;
@@ -24,9 +41,9 @@ footer {
     text-align: center;
 }
 
-.hfletters {
-    font-size: 50px;
-    height: 70px;
+.header {
+    font-size: 90px;
+    height: 100px;
     text-align: center;
 }
 
@@ -34,6 +51,7 @@ footer {
 font-size: 30px;
 margin-top: 20px;
 margin-bottom: 20px;
+color: rgb(253, 219, 39);
 }
 
 .taskdate {
@@ -49,4 +67,10 @@ margin-bottom: 50px;
 .generalmessages {
     font-size: 20px;
     text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
