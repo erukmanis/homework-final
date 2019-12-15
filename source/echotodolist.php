@@ -45,21 +45,6 @@ foreach ($allRows as $row) {
             case 'details':
                 echo "<div class=taskdetails>Details '$value'</div>";
                 break;
-
-                // default:
-                //     //echo "<span>$value </span>";
-                //     break;
         }
     }
-
-    // echo "<form action='templates/updateform.php'>";
-    // echo "<button>Update</button>";
-    // echo "</form>";
-
-
-
-
-    // echo "<form action='deletetodo.php' method='post'>";
-    // echo "<button name='delete' value='" . $row['idschedule'] . "'>Delete</button>";
-    // echo "</form>";
 }

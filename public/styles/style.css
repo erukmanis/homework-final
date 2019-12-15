@@ -32,6 +32,8 @@ footer {
     color: rgb(253, 219, 39);
 }
 
+
+
 .innercontainer {
     margin: auto;
     width: 900px;
@@ -96,3 +98,12 @@ button {
 ::-webkit-input-placeholder {
     color: black;
   }
+
+  .here {
+    font-size: 60px;
+    color: rgb(253, 219, 39);
+}
+
+.home {
+    text-align: center;
+}

@@ -18,10 +18,14 @@ try {
 }
 
 if (!isset($_SESSION['username'])) {
-    echo "You need to login for To do List";
+    //echo "You need to login for To do List";
     return;
 } else {
-    echo "<div class='front generalmessages'>Here you can edit your tasks " . $_SESSION['username'] . " !</div>";
+    echo "<div class='front generalmessages here'>Edit your tasks here, " . $_SESSION['username'] . " !</div>";
+
+    echo "<form class='home' action='../index.php' method='post'>";
+    echo "<button name='home'>To main page</button>";
+    echo "</form>";
 }
 
 $stmt = $conn->prepare("SELECT * FROM schedule

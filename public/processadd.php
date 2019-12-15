@@ -3,14 +3,7 @@ session_start();
 require_once '../source/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // echo "We got a POST request!";
-    // foreach ($_POST as $key => $value) {
-    //     echo "<div>We received name $key with value $value </div>";
-    // }
-    // if (isset($_POST['nameInput'])) {
-    //     echo "Hello there " . $_POST['nameInput'] . "!";
-    // }
-    // var_dump($_POST);
+
 
     $duedate = $_POST['duedateinput'];
     $taskname = $_POST['taskinput'];

@@ -18,8 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $isFetchModeSet = $stmt->setFetchMode(PDO::FETCH_ASSOC);
     $allRows = $stmt->fetchAll();
 
-
-
     if (count($allRows) > 0) {
         $hash = $allRows[0]['hash'];
         $idusers = $allRows[0]['idusers'];
