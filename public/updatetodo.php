@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once '../source/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

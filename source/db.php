@@ -1,6 +1,6 @@
 <?php
 
-require_once '../config/config.php';
+require_once '../../homework-final/config/config.php';
 
 try {
     $conn = new PDO("mysql:host=$SERVER;dbname=$DB;charset=utf8", USER, PW);
