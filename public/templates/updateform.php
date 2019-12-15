@@ -2,6 +2,8 @@
 
 session_start();
 
+require_once './header.php';
+
 $SERVER = "localhost";
 const USER = "root";
 const PW = "";
@@ -22,7 +24,7 @@ if (!isset($_SESSION['username'])) {
     echo "You need to login for To do List";
     return;
 } else {
-    echo "Here you can edit your tasks " . $_SESSION['username'] . " !";
+    echo "<div class='front generalmessages'>Here you can edit your tasks " . $_SESSION['username'] . " !</div>";
 }
 
 
@@ -74,3 +76,6 @@ foreach ($allRows as $row) {
     echo "<button name='delete' value='" . $row['idschedule'] . "'>Delete</button>";
     echo "</form>";
 }
+
+
+require_once './footer.php';
