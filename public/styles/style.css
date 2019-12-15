@@ -27,12 +27,16 @@ footer {
     padding-top: 20px;
 }
 
-
+.listof {
+    font-size: 60px;
+    color: rgb(253, 219, 39);
+}
 
 .innercontainer {
     margin: auto;
-    width: 500px;
-    
+    width: 900px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .front {
@@ -49,19 +53,19 @@ footer {
 
 .taskname {
 font-size: 30px;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 color: rgb(253, 219, 39);
 }
 
 .taskdate {
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .taskdetails {
-margin-top: 20px;
-margin-bottom: 50px;
+margin-top: 10px;
+margin-bottom: 90px;
 }
 
 .generalmessages {
@@ -72,5 +76,6 @@ margin-bottom: 50px;
 .form {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 
 }

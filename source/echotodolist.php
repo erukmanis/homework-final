@@ -40,7 +40,7 @@ foreach ($allRows as $row) {
                 echo "<div class=taskdate>Due Date '$value'</div>";
                 break;
             case 'taskname':
-                echo "<div class=taskname>Task '$value'</div>";
+                echo "<div class=taskname>'$value'</div>";
                 break;
             case 'details':
                 echo "<div class=taskdetails>Details '$value'</div>";

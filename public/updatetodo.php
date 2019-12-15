@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $stmt->execute();
 
-    header('Location: templates/updateform.php');
+    header('Location: /');
 } else {
     echo "Try again";
 }

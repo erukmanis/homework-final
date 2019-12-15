@@ -17,9 +17,6 @@ try {
     die();
 }
 
-
-//require_once '../../source/db.php';
-
 if (!isset($_SESSION['username'])) {
     echo "You need to login for To do List";
     return;
@@ -40,9 +37,7 @@ $allRows = $stmt->fetchAll();
 $columnsPrinted = false;
 foreach ($allRows as $row) {
     if (!$columnsPrinted) {
-        foreach ($row as $key => $value) {
-            //echo "<div><span> KEY:  $key </span></div>";
-        }
+        foreach ($row as $key => $value) { }
         $columnsPrinted = true;
     }
     echo "<div class='form'>";
@@ -62,9 +57,6 @@ foreach ($allRows as $row) {
 
                 echo "<input class='taskdisplay' name='$key' value='$value'></input>";
                 break;
-                // default:
-                //     //echo "<span>$value </span>";
-                //     break;
         }
     }
 

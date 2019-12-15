@@ -3,7 +3,7 @@
 session_start();
 if (isset($_SESSION['username'])) {
 
-    echo "Signed in as " . $_SESSION['username'];
+    echo "<span class=listof>of " . $_SESSION['username'] . "</span>";
     echo "<form action='processlogout.php' method='post'>";
     echo "<button>Sign out</button>";
     echo "</form>";
