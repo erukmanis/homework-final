@@ -1,6 +1,6 @@
 <?php
 require_once '../public/templates/header.php';
 
-echo '<div class="front generalmessages">We will be looking forward to see you again!</div>';
+echo '<div class="front generalmessages here">See you later!</div>';
 
 require_once '../public/templates/footer.php';

@@ -3,11 +3,9 @@
 require_once 'db.php';
 
 if (!isset($_SESSION['username'])) {
-    echo "You need to login for To do List";
+
     return;
-} else {
-    echo "<div class='generalmessages'>Welcome to your private todolist " . $_SESSION['username'] . " !</div>";
-}
+} else { }
 
 require_once '../public/templates/addtasks.php';
 
