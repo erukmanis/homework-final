@@ -67,10 +67,10 @@ foreach ($allRows as $row) {
     echo "<button name='updatebutton' value='" . $row['idschedule'] . "'>Update</button>";
     echo "</form>";
 
-
     echo "<form action='/deletetodo.php' method='post'>";
     echo "<button name='delete' value='" . $row['idschedule'] . "'>Delete</button>";
     echo "</form>";
+
     echo '</div>';
 }
 
