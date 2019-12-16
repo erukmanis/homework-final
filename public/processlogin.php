@@ -22,7 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $hash = $allRows[0]['hash'];
         $idusers = $allRows[0]['idusers'];
 
-
         if (password_verify($password, $hash)) {
             echo "You are logged in!";
             $_SESSION['username'] = $username;
