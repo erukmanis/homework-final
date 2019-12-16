@@ -27,9 +27,6 @@ foreach ($allRows as $row) {
         $columnsPrinted = true;
     }
 
-
-
-
     foreach ($row as $key => $value) {
 
         switch ($key) {

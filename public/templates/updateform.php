@@ -24,7 +24,7 @@ if (!isset($_SESSION['username'])) {
     echo "<div class='front generalmessages here'>Edit your tasks here, " . $_SESSION['username'] . " !</div>";
 
     echo "<form class='home' action='../index.php' method='post'>";
-    echo "<button name='home'>To main page</button>";
+    echo "<button name='home'>Return to Task list</button>";
     echo "</form>";
 }
 

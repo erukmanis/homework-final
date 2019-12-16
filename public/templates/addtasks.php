@@ -1,4 +1,4 @@
-<div class="front">
+<div class="front form">
     <form action="processadd.php" method="post">
         <input type="date" name="duedateinput" placeholder="due date" required>
         <input type="text" name="taskinput" placeholder="task" required>
